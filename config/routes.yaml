@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#route_download:
+#  path:       /json/{lang}/{nom}.json
+#  controller: App\Controller\ExportController::exportJSONAction
+#  methods:    [GET]
